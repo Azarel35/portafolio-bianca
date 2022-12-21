@@ -1,0 +1,14 @@
+.error {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	background-color: black;
+	font-family: 'Barlow Condensed', sans-serif;
+	font-size: 3rem;
+}
+
+.error-link {
+	text-decoration: none;
+	color: #ffc0cb;
+}
