@@ -21,7 +21,10 @@ export default function Ecommerce() {
 
 	return (
 		<Card sx={{ maxWidth: 645, backgroundColor: 'black', margin: '35px' }}>
-			<a href="https://github.com/Azarel35/bianca-bravo-capstone-frontend">
+			<a
+				href="https://github.com/Azarel35/bianca-bravo-capstone-frontend"
+				target="_blank"
+				rel="noopener noreferrer">
 				<CardMedia component="img" alt="ecommerce" image={ecommerce} />
 			</a>
 			<CardContent>
@@ -36,14 +39,16 @@ export default function Ecommerce() {
 				<Button
 					sx={styles}
 					size="small"
-					href="https://github.com/Azarel35/bianca-bravo-capstone-frontend">
+					href="https://github.com/Azarel35/bianca-bravo-capstone-frontend"
+					target="_blank">
 					Ir a codigo front-end
 				</Button>
 
 				<Button
 					sx={styles}
 					size="small"
-					href="https://github.com/Azarel35/bianca-ecommerce-backend">
+					href="https://github.com/Azarel35/bianca-ecommerce-backend"
+					target="_blank">
 					ir a codigo back-end
 				</Button>
 			</CardActions>

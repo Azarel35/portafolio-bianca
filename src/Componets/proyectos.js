@@ -44,6 +44,9 @@ export default function Proyectos() {
 					</Grid>
 				</Grid>
 			</Collapse>
+			<div className="proyectos-footer">
+				2022 Portafolio BB | Desarrollo web
+			</div>
 		</Box>
 	);
 }

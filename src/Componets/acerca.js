@@ -13,6 +13,7 @@ export default function Acerca() {
 				width: '100%',
 				minHeight: '100vh',
 				backgroundColor: 'black',
+				flexGrow: 1,
 			}}>
 			<Image />
 			<Grid
@@ -28,13 +29,14 @@ export default function Acerca() {
 						<div>
 							Hola! mi nombre es Bianca Bravo, estudie en Bottega University,
 							obtuve conocimientos como desarrollador Full Stack desde el año
-							2020.
-							<div></div>
-							Me gusta más el lado del front-end y he desarrollado más
-							habilidades en ello, soy autodidacta, creativa y me gusta la
-							resolución de problemas y aprender lo que se tenga que aprender
-							para su ejecución, por ello estaría encantada de formar parte de
-							un equipo y así aportar mis conocimientos y habilidades.
+							2020.He desarrollado más habilidades como Front-End, soy
+							autodidacta, creativa y me gusta la resolución de problemas y
+							aprender lo que se tenga que aprender para su ejecución, por ello
+							estaría encantada de formar parte de un equipo y así aportar mis
+							conocimientos y habilidades. Éstos son algunos conocimientos y
+							usos en proyectos: JavaScript , React js, Axios, API Rest,
+							Material UI, Ant Design, Figma, HTML, CSS, Sass, UML, Bases de
+							datos SQL y noSQL, Flask con Python,Git entre otros.
 						</div>
 					</div>
 				</Grid>
@@ -69,12 +71,18 @@ export default function Acerca() {
 								}}
 							/>
 						</a>
-
 						<div className="contenido">3339671320</div>
 					</div>
 				</Grid>
-				<Grid item xs={12} md={8}>
-					<div className="contenido">azarelbravo9@gmail.com</div>
+				<Grid item xs={12} md={8} sx={{ marginBottom: '50px' }}>
+					<div className="contenido">
+						<a href="mailto:azarelbravo9@gmail.com">azarelbravo9@gmail.com</a>
+					</div>
+				</Grid>
+				<Grid item xs={12} md={8} sx={{ marginBottom: '50px' }}>
+					<div className="acerca-footer">
+						2022 Portafolio BB | Desarrollo web
+					</div>
 				</Grid>
 			</Grid>
 		</Box>

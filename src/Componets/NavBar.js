@@ -1,13 +1,12 @@
 import React from 'react';
 import AppBar from '@mui/material/AppBar';
-import { Toolbar, styled, Avatar, Box } from '@mui/material';
+import { Toolbar, styled, Box } from '@mui/material';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 import { BrowserRouter as Router, Routes, Link, Route } from 'react-router-dom';
 
-import bianca from '../assets/bianca.jpg';
+import '../styles/Content.scss';
 
 const Icons = styled(Box)(({ theme }) => ({
 	display: 'flex',
@@ -30,18 +29,11 @@ const NavBar = () => {
 	return (
 		<AppBar position="sticky">
 			<StyledToolbar>
-				<Link to="/">
-					<Avatar alt="Bianca Bravo" src={bianca}></Avatar>
-					<KeyboardArrowUpIcon
-						sx={{
-							color: 'white',
-							'&:hover': {
-								color: '#ffc0cb',
-								borderColor: '#ffc0cb',
-							},
-						}}
-					/>
-				</Link>
+				<div className="contenedor-links">
+					<Link to="/" className="contenido-bianca">
+						Bianca Bravo
+					</Link>
+				</div>
 
 				<StyledToolbar>
 					<Icons>

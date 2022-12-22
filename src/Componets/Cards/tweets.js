@@ -21,7 +21,10 @@ export default function Tweets() {
 
 	return (
 		<Card sx={{ maxWidth: 645, backgroundColor: 'black', margin: '35px' }}>
-			<a href="https://incomparable-caramel-69e3f7.netlify.app/">
+			<a
+				href="https://incomparable-caramel-69e3f7.netlify.app/"
+				target="_blank"
+				rel="noopener noreferrer">
 				<CardMedia component="img" alt="tweets" image={tweets} />
 			</a>
 
@@ -36,14 +39,16 @@ export default function Tweets() {
 				<Button
 					sx={styles}
 					size="small"
-					href="https://incomparable-caramel-69e3f7.netlify.app/">
+					href="https://incomparable-caramel-69e3f7.netlify.app/"
+					target="_blank">
 					Ir a sitio
 				</Button>
 
 				<Button
 					sx={styles}
 					size="small"
-					href="https://github.com/Azarel35/tweets-simulator-react">
+					href="https://github.com/Azarel35/tweets-simulator-react"
+					target="_blank">
 					ir a codigo
 				</Button>
 			</CardActions>

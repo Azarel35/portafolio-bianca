@@ -28,8 +28,6 @@ export default function Content() {
 				in={checked}
 				{...(checked ? { timeout: 2000 } : {})}
 				sx={{ backgroundColor: 'black' }}>
-				<div className="contenido-bianca">Bianca Bravo</div>
-
 				<div className="contenedor-segundo">Desarrollador Front-end</div>
 			</Collapse>
 			<Collapse
@@ -48,6 +46,7 @@ export default function Content() {
 			<div className="aqui">
 				<ButtonPdf />
 			</div>
+			<div className="footer">2022 Portafolio BB | Desarrollo web</div>
 		</Box>
 	);
 }

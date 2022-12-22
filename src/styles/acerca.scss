@@ -32,3 +32,13 @@ a:hover {
 	flex-direction: row;
 	height: 500px;
 }
+
+.acerca-footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-size: 0.8rem;
+	font-family: 'Barlow Condensed';
+	margin-top: 90px;
+}
