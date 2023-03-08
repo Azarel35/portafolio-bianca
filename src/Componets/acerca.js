@@ -31,12 +31,12 @@ export default function Acerca() {
 							obtuve conocimientos como desarrollador Full Stack desde el año
 							2020.He desarrollado más habilidades como Front-End, soy
 							autodidacta, creativa y me gusta la resolución de problemas y
-							aprender lo que se tenga que aprender para su ejecución, por ello
-							estaría encantada de formar parte de un equipo y así aportar mis
-							conocimientos y habilidades. Éstos son algunos conocimientos y
-							usos en proyectos: JavaScript , React js, Axios, API Rest,
-							Material UI, Ant Design, Figma, HTML, CSS, Sass, UML, Bases de
-							datos SQL y noSQL, Flask con Python,Git entre otros.
+							aprender constantemente, por ello estaría encantada de formar
+							parte de un equipo y así aportar mis conocimientos y habilidades.
+							Éstos son algunos conocimientos y usos en proyectos: HTML, CSS,
+							Sass, Bootstrap, JavaScript, jQuery, React.js, PHP:laravel,
+							consumo de API Rest, Material UI, Ant Design, Figma, UML, Bases de
+							datos SQL y noSQL, Flask con Python, Git entre otros.
 						</div>
 					</div>
 				</Grid>
